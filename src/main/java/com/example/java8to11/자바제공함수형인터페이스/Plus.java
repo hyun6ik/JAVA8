@@ -1,7 +1,9 @@
 package com.example.java8to11.자바제공함수형인터페이스;
 
+import java.util.ArrayList;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
+import java.util.stream.Stream;
 
 public class Plus {
 
