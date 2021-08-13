@@ -28,5 +28,6 @@ public class MethodReference {
         System.out.println("hyunsik = " + hyunsik.getName());
         System.out.println("hiHyunsik = " + hiHyunsik);
         System.out.println("hi2Hyunsik = " + hi2Hyunsik);
+        System.out.println("Hello");
     }
 }
