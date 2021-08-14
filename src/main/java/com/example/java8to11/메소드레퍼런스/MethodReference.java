@@ -1,4 +1,6 @@
-package com.example.java8to11.자바제공함수형인터페이스;
+package com.example.java8to11.메소드레퍼런스;
+
+import com.example.java8to11.메소드레퍼런스.Greeting;
 
 import java.util.Arrays;
 import java.util.function.Function;
@@ -28,6 +30,6 @@ public class MethodReference {
         System.out.println("hyunsik = " + hyunsik.getName());
         System.out.println("hiHyunsik = " + hiHyunsik);
         System.out.println("hi2Hyunsik = " + hi2Hyunsik);
-        System.out.println("Hello");
+
     }
 }

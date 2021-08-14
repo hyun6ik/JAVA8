@@ -1,4 +1,4 @@
-package com.example.java8to11.자바제공함수형인터페이스;
+package com.example.java8to11.메소드레퍼런스;
 
 public class Greeting {
 
