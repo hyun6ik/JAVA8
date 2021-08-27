@@ -5,12 +5,12 @@ import com.example.java8to11.메소드레퍼런스.Greeting;
 import java.util.Arrays;
 import java.util.function.Function;
 import java.util.function.Supplier;
+import java.util.function.ToIntFunction;
 import java.util.function.UnaryOperator;
 
 public class MethodReference {
 
     public static void main(String[] args) {
-
 
         // 생성자 참조
         Supplier<Greeting> newGreeting = Greeting::new;

@@ -2,6 +2,7 @@ package com.example.java8to11.메소드레퍼런스;
 
 public class Greeting {
 
+
     private String name;
 
     public Greeting() {
@@ -18,6 +19,7 @@ public class Greeting {
     public static String hi(String name) {
         return "hi " + name;
     }
+
 
     public String getName() {
         return name;

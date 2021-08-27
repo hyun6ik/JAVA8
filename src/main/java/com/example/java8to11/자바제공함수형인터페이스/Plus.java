@@ -19,5 +19,6 @@ public class Plus {
         Function<Integer, Integer> plus10AndMultiply2 = plus10.andThen(multiply2);
         System.out.println("plus10AndMultiply2.apply(2) = " + plus10AndMultiply2.apply(2));
 
+
     }
 }

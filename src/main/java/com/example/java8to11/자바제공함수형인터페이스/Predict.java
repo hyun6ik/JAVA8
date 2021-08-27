@@ -12,5 +12,9 @@ public class Predict {
 
         System.out.println("isOdd.test(4) = " + isOdd.test(4));
 
+
+        for (int i = 0; i < 10; i++) {
+
+        }
     }
 }
