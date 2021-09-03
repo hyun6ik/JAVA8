@@ -21,7 +21,7 @@ public class ComparatorExample {
 //        System.out.println("====================");
 //
         final Comparator<String> compareToIgnoreCase = String::compareToIgnoreCase;
-        name.sort(compareToIgnoreCase.reversed().thenComparing(...));
+
         name.forEach(System.out::println);
     }
 }
