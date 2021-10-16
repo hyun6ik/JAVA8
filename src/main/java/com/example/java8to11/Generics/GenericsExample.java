@@ -21,10 +21,10 @@ public class GenericsExample {
         tvList.add(new Audio());
         TV t = (TV) tvList.get(0);
 
-        ArrayList<TV> tvList = new ArrayList<>();
-
-        tvList.add(new TV());    // OK
-        tvList.add(new Audio()); // 컴파일 에러, TV 외에 다른 타입은 저장 불가
-        TV tv = tvList.get(0);  // 형변환 불필요
+//        ArrayList<TV> tvList = new ArrayList<>();
+//
+//        tvList.add(new TV());    // OK
+//        tvList.add(new Audio()); // 컴파일 에러, TV 외에 다른 타입은 저장 불가
+//        TV tv = tvList.get(0);  // 형변환 불필요
     }
 }
