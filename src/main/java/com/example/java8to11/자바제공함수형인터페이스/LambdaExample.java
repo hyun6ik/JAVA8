@@ -34,7 +34,7 @@ public class LambdaExample {
         // 람다
         IntConsumer printInt = (i) -> System.out.println(i + baseNumber);
 
-        printInt.accept(100);
+        printInt.accept(200);
     }
 
 
